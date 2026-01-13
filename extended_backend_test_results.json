@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-01-13T10:04:07.417978",
+  "test_type": "extended_workflow",
+  "total_tests": 14,
+  "passed_tests": 14,
+  "success_rate": 100.0,
+  "test_details": [
+    {
+      "name": "Register user1_100358",
+      "success": true,
+      "details": "User ID: 4407b945-7a91-4c80-9ad7-f337a92b8f42"
+    },
+    {
+      "name": "Register user2_100358",
+      "success": true,
+      "details": "User ID: 72db7596-fe3a-4ed1-9bc4-bf0ca39d839a"
+    },
+    {
+      "name": "User Search",
+      "success": true,
+      "details": "User1 found User2 in search results"
+    },
+    {
+      "name": "Send Chat Request",
+      "success": true,
+      "details": "Request ID: 5585b7ef-40e1-46a8-a657-b28ae12a5ed4"
+    },
+    {
+      "name": "Get Chat Requests",
+      "success": true,
+      "details": "Found request from user1_100358"
+    },
+    {
+      "name": "Accept Chat Request",
+      "success": true,
+      "details": "Created conversation: f5d400d8-dae9-4e92-a113-8a60d4775272"
+    },
+    {
+      "name": "Send Message (User1)",
+      "success": true,
+      "details": "Message: Hello! This is my first message."
+    },
+    {
+      "name": "Send Message (User2)",
+      "success": true,
+      "details": "Reply: Hi there! Nice to meet you!"
+    },
+    {
+      "name": "Get Messages (User1)",
+      "success": true,
+      "details": "Retrieved 2 messages"
+    },
+    {
+      "name": "Mark Message Read",
+      "success": true,
+      "details": "Message marked as read"
+    },
+    {
+      "name": "Get Conversations (User1)",
+      "success": true,
+      "details": "Has 1 conversations"
+    },
+    {
+      "name": "Get Conversations (User2)",
+      "success": true,
+      "details": "Has 1 conversations"
+    },
+    {
+      "name": "Create Group Conversation",
+      "success": true,
+      "details": "Group: Test Group 10:04:05"
+    },
+    {
+      "name": "Send Group Message",
+      "success": true,
+      "details": "Group message sent"
+    }
+  ]
+}
