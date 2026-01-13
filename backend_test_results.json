@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-13T10:03:17.658381",
+  "total_tests": 7,
+  "passed_tests": 7,
+  "success_rate": 100.0,
+  "test_details": [
+    {
+      "name": "Health Check",
+      "success": true,
+      "details": "",
+      "response_data": {
+        "status": "healthy",
+        "service": "ConnectChat API"
+      }
+    },
+    {
+      "name": "User Login",
+      "success": true,
+      "details": "Login successful",
+      "response_data": null
+    },
+    {
+      "name": "Get Current User",
+      "success": true,
+      "details": "Retrieved user: testuser",
+      "response_data": null
+    },
+    {
+      "name": "Search Users",
+      "success": true,
+      "details": "Found 0 users",
+      "response_data": null
+    },
+    {
+      "name": "Get Conversations",
+      "success": true,
+      "details": "Retrieved 0 conversations",
+      "response_data": null
+    },
+    {
+      "name": "Get Chat Requests",
+      "success": true,
+      "details": "Retrieved 0 requests",
+      "response_data": null
+    },
+    {
+      "name": "User Registration",
+      "success": true,
+      "details": "New user registered successfully",
+      "response_data": null
+    }
+  ]
+}
